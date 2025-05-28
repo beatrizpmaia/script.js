@@ -7,6 +7,11 @@ console.log(mensagem)
 
 if (idade >= 60) {
     console.log(`Idoooooooso`)
-} else {
-    console.log(`Não Idoso`)
+
+} else if (idade >= 12 && idade <= 18) {
+    console.log(`Aborrecente`)
+
+} else if (idade < 12) {
+    console.log(`Pivete`);
+    
 }
